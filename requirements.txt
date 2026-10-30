@@ -1,0 +1,89 @@
+# ======================================================================
+#  CAMADS BOT HOSTING - requirements.txt
+#  Isse runbot.py ke SAATH EK HI FOLDER me rakho.
+#  Jo packages zyadatar Telegram bots me lagte hain wo sab yahan hain,
+#  taaki hosted bots ko "No module named ..." error na aaye.
+#
+#  Versions jaan-boojhkar pin nahi kiye (latest + compatible chalega).
+#  Kisi package ki zaroorat nahi to uski line hata do (ya aage # laga do).
+# ======================================================================
+
+# ---- Hosting bot ke liye ZAROORI (inke bina runbot.py nahi chalega) ----
+pyTelegramBotAPI
+psutil
+
+# ---- Telegram libraries (jis library ka bot ho, wahi use hoti hai) ----
+python-telegram-bot
+aiogram
+pyrogram
+telethon
+
+# ---- HTTP / async / network ----
+aiohttp
+aiofiles
+requests
+httpx
+websockets
+certifi
+nest_asyncio
+
+# ---- Scraping / parsing ----
+beautifulsoup4
+lxml
+
+# ---- Config / data ----
+python-dotenv
+PyYAML
+pydantic
+cachetools
+
+# ---- Database ----
+pymongo
+dnspython
+motor
+redis
+SQLAlchemy
+aiosqlite
+psycopg2-binary
+
+# ---- Time / scheduler ----
+pytz
+python-dateutil
+tzdata
+APScheduler
+schedule
+
+# ---- Security / crypto ----
+cryptography
+pycryptodome
+PyJWT
+
+# ---- Media / files ----
+Pillow
+qrcode
+yt-dlp
+gTTS
+
+# ---- Web server (keep-alive / webhook / API) ----
+Flask
+fastapi
+uvicorn
+
+# ---- Utilities ----
+tqdm
+colorama
+humanize
+emoji
+tabulate
+
+# ======================================================================
+#  OPTIONAL (bhaari ya kam use hone wale) - zaroorat ho to # hata do
+# ======================================================================
+# numpy
+# pandas
+# matplotlib
+# opencv-python-headless
+# openai
+# google-generativeai
+# speedtest-cli
+# deep-translator
